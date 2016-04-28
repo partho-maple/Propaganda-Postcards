@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+<script type="text/javascript" src="pixastic.core.js"> </script>
+<script type="text/javascript" src="sepia.js"> </script>
+
+</head>
+
+<body>
+
+	<script type="text/javascript">
+
+	var img = new Image();
+	img.onload = function() {
+		Pixastic.process(img, "sepia");
+	}
+
+	var rand = Math.random();
+
+	document.body.appendChild(img);
+	img.src = "photo.png?" + rand;
+	img.width = 480;
+	img.height = 320;
+
+	</script>
+		
+</body>
+
+
+</html>

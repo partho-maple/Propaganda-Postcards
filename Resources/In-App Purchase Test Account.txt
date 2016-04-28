@@ -1,0 +1,52 @@
+partho.maple+coruscate@gmail.com
+Pass:	PArt123Bis!@#zaqWSX
+
+
+
+
+What is my pet's name?
+Ans:	No Pet
+
+com.coruscatedigital.propaganda
+
+
+
+
+
+
+
+
+
+
+
+
+In-App Purchase Test Account::::::::::::
+
+Partho Biswas
+partho.biswas@parthobiswas.com
+123ASDasd
+What is my pet's name?
+Ans:	No Pet
+
+
+
+
+Name:Propaganda Lite_Partho_DevType:DevelopmentApp ID:
+Propaganda Lite (com.coruscatedigital.propaganda)
+Certificates:
+1 total
+Devices:
+11 total
+Enabled Services:
+Push Notifications, iCloud, In-App Purchase, Game Center
+
+
+
+
+
+Reference Name: Space Race
+Product ID: com.coruscatedigital.propaganda.SpaceRace
+Type: Non-Consumable
+Apple ID: 827427367
+
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <sdk-version>3.2.1.GA</sdk-version>
+    <deployment-targets>
+        <target device="tizen">false</target>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">false</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <id>com.coruscatedigital.propaganda</id>
+    <name>Propaganda Lite</name>
+    <version>1.0.0</version>
+    <publisher>Coruscate Digital LLC</publisher>
+    <url>http://coruscatedigital.com</url>
+    <description>not specified</description>
+    <copyright>Coruscate Digital LLC</copyright>
+    <icon>Icon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>true</statusbar-hidden>
+    <fullscreen>true</fullscreen>
+    <navbar-hidden>true</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>7e6c3d17-4954-400f-99de-d745b9500898</guid>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <modules>
+        <module platform="android">facebook</module>
+        <module platform="iphone">facebook</module>
+        <module platform="iphone">ti.storekit</module>
+        <module platform="iphone">com.widbook.statusbar</module>
+        <module platform="iphone">ti.volumeslider</module>
+        <module platform="android">ti.volumeslider</module>
+    </modules>
+    <ios>
+        <plist>
+            <dict>
+                <key>UIViewControllerBasedStatusBarAppearance</key>
+                <false/>
+            </dict>
+        </plist>
+    </ios>
+</ti:app>

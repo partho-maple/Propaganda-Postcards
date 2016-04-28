@@ -1,0 +1,7 @@
+---------------------	Setting Up ti.storekit	---------------------
+
+1. First of all make sure that your apps GUID is unique. You will find GUID into your apps tiapp.xml file.
+
+2. Copy your apps GUID and replace the GUID of manifest fine whch you will find into ../Library/Application Support/Titanium/modules/iphone/ti.storekit/3.0.0/manifest
+
+Thats it.
